@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/MC-Online_PlayerBug Fix.iml" filepath="$PROJECT_DIR$/MC-Online_PlayerBug Fix.iml" group="MC-Online_PlayerBug Fix" />
+      <module fileurl="file://$PROJECT_DIR$/MyID3_for_Android/MyID3_for_Android.iml" filepath="$PROJECT_DIR$/MyID3_for_Android/MyID3_for_Android.iml" group="MC-Online_PlayerBug Fix/MyID3_for_Android" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="MC-Online_PlayerBug Fix/app" />
+      <module fileurl="file://$PROJECT_DIR$/isoparser-1.9.39/isoparser-1.9.39.iml" filepath="$PROJECT_DIR$/isoparser-1.9.39/isoparser-1.9.39.iml" group="MC-Online_PlayerBug Fix/isoparser-1.9.39" />
+      <module fileurl="file://$PROJECT_DIR$/mobile-ffmpeg-audio-3.1/mobile-ffmpeg-audio-3.1.iml" filepath="$PROJECT_DIR$/mobile-ffmpeg-audio-3.1/mobile-ffmpeg-audio-3.1.iml" group="MC-Online_PlayerBug Fix/mobile-ffmpeg-audio-3.1" />
+      <module fileurl="file://$PROJECT_DIR$/slf4j-android/slf4j-android.iml" filepath="$PROJECT_DIR$/slf4j-android/slf4j-android.iml" group="MC-Online_PlayerBug Fix/slf4j-android" />
+      <module fileurl="file://$PROJECT_DIR$/spotify-auth-release/spotify-auth-release.iml" filepath="$PROJECT_DIR$/spotify-auth-release/spotify-auth-release.iml" group="MC-Online_PlayerBug Fix/spotify-auth-release" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.razorpay:razorpay-java:1.3.8@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.razorpay/razorpay-java/1.3.8/39da60719f86174f254b168ca1b32c188a25e949/razorpay-java-1.3.8.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.razorpay/razorpay-java/1.3.8/3746221aaa546b71bf8e0493f04a5c89e2cb7092/razorpay-java-1.3.8-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

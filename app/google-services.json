@@ -1,0 +1,87 @@
+{
+  "project_info": {
+    "project_number": "292824806661",
+    "firebase_url": "https://mc-online-player.firebaseio.com",
+    "project_id": "mc-online-player",
+    "storage_bucket": "mc-online-player.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292824806661:android:9368ea775756a51e2c736c",
+        "android_client_info": {
+          "package_name": "com.mc.onmusic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292824806661-d87r0npg8iveqmnlpl8qtvmq0caceiom.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mc.onmusic",
+            "certificate_hash": "ef2a6a30a0b0f54044ce71e0b4d164c75ae8398a"
+          }
+        },
+        {
+          "client_id": "292824806661-jdqhv77300m5hmm8m0drfkf4mcppktp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUs7cD2wYSDjhKTn4dRAqECjSRWw2uSB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292824806661-jdqhv77300m5hmm8m0drfkf4mcppktp0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4422785131201549~7340824151"
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292824806661:android:9225964a1fc51c352c736c",
+        "android_client_info": {
+          "package_name": "com.mc.onmusic_relase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292824806661-q9n80669nu7ulllf8oshrh0ua5f0rrm1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.mc.onmusic_relase",
+            "certificate_hash": "4ec30b93d69cdcca08b199843a7f051a712ce09c"
+          }
+        },
+        {
+          "client_id": "292824806661-jdqhv77300m5hmm8m0drfkf4mcppktp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUs7cD2wYSDjhKTn4dRAqECjSRWw2uSB8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292824806661-jdqhv77300m5hmm8m0drfkf4mcppktp0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      },
+      "admob_app_id": "ca-app-pub-4422785131201549~2971168457"
+    }
+  ],
+  "configuration_version": "1"
+}

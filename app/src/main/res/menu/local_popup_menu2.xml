@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/action_play"
+        android:title="@string/play3"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_play_next"
+        android:title="@string/play_next"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_add_queue"
+        android:title="@string/add_to_queue"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_ringtone"
+        android:title="@string/set_as_ringtone"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_details"
+        android:title="@string/details"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/action_share"
+        android:title="@string/share"
+        app:showAsAction="never"/>
+
+</menu>

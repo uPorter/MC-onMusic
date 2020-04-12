@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/ncslayout"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/background"
+    android:layout_height="wrap_content">
+
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorScreen"/>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/futura_bold"
+        android:textStyle="bold"
+        android:layout_marginStart="15dp"
+        android:layout_width="wrap_content"
+        android:text="@string/for_you"
+        android:layout_height="wrap_content" />
+
+    <HorizontalScrollView
+        android:scrollbars="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/for_you1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <include layout="@layout/for_you_item1" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_marginEnd="15dp"
+                    android:fontFamily="@font/futura_bold"
+                    android:text="@string/your_favourite_tracks"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:id="@+id/for_you2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <include layout="@layout/for_you_item2" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_marginEnd="15dp"
+                    android:fontFamily="@font/futura_bold"
+                    android:text="@string/your_daily_mix"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:gravity="center"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/for_you3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <include layout="@layout/for_you_item3" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="-3dp"
+                    android:layout_marginEnd="15dp"
+                    android:fontFamily="@font/futura_bold"
+                    android:text="@string/taz_network_songs"
+                    android:textColor="@color/white"
+                    android:textSize="13sp"
+                    android:gravity="center"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

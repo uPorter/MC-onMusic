@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/nestedScrollView"
+    android:background="@color/colorPrimaryDark"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.SearchFragment"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:animateLayoutChanges="true"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal">
+
+
+            <ImageView
+                android:id="@+id/btnSettings"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="0dp"
+                android:src="@drawable/ic_settings_black_24dp">
+
+
+            </ImageView>
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+        <include layout="@layout/popular_layouut"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/discoverViral"
+            android:layout_marginTop="20dp"
+            app:cardCornerRadius="12dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="@drawable/discover_shape_click"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="170dp">
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <RelativeLayout
+                    android:layout_above="@+id/discover_banner"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/discover_shape">
+
+                    <ImageView
+                        android:id="@+id/dImage1"
+                        android:layout_width="54dp"
+                        android:layout_height="54dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginStart="5dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/spotify_logo"
+                        android:scaleType="fitXY" />
+
+                </RelativeLayout>
+                <LinearLayout
+                    android:id="@+id/discover_banner"
+                    android:layout_alignParentBottom="true"
+                    android:padding="13dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/discover_shape2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textStyle="bold"
+                        android:textSize="22sp"
+                        android:fontFamily="@font/dmsans2"
+                        android:text="@string/discover_more"
+                        android:textColor="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:textSize="14sp"
+                        android:fontFamily="@font/dmsans2"
+                        android:text="Spotify'daki En İyi Parçalar"
+                        android:textColor="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+        <include layout="@layout/ncs_layout"/>
+
+        <include layout="@layout/for_you_layout"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_songs"
+            android:fontFamily="@font/futura_bold"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp">
+
+        </TextView>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/new_songs"
+            android:layout_marginTop="20dp"
+            android:clickable="true"
+            android:focusable="true"
+            android:foreground="@drawable/discover_shape_click"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            app:cardUseCompatPadding="true"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="8dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/new_songs">
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/the_newest_songs_every_friday_are_here"
+            android:textSize="16sp"
+            android:layout_gravity="center">
+
+        </TextView>
+
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_alignParentStart="true"
+                android:textSize="17sp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/futura_bold"
+                android:textStyle="bold"
+                android:layout_marginStart="15dp"
+                android:layout_width="wrap_content"
+                android:text="@string/trending"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/moreTrending"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_marginEnd="15dp"
+                android:padding="4dp"
+                android:background="@drawable/trending_shape"
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:textColor="#49a09d"
+                android:fontFamily="@font/futura_bold"
+                android:layout_alignParentEnd="true"
+                android:layout_width="wrap_content"
+                android:text="@string/see_all"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/progressLayout"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+            <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                android:id="@+id/progressBar"
+                app:cpb_progress="20"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                app:cpb_background_progressbar_width="7dp"
+                app:cpb_progress_direction="to_right"
+                app:cpb_background_progressbar_color="@color/colorPrimaryDark"
+                app:cpb_progressbar_color="@color/colorAccent"
+                app:cpb_progressbar_width="6dp"
+                app:cpb_round_border="false" />
+            <ProgressBar
+                android:visibility="gone"
+                android:id="@+id/progressBar1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:indeterminateDrawable="@drawable/progress"/>
+        </RelativeLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:id="@+id/my_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorScreen"/>
+
+
+
+
+        <View
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorScreen"/>
+
+
+
+        <include layout="@layout/region_layout" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_alignParentStart="true"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/futura_bold"
+            android:layout_marginStart="15dp"
+            android:layout_width="wrap_content"
+            android:text="Popular"
+            android:layout_height="wrap_content" />
+
+        <include layout="@layout/trend_layout"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="15dp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <TextView
+            android:visibility="gone"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentStart="true"
+            android:textSize="17sp"
+            android:textColor="@color/white"
+            android:fontFamily="@font/dmsans_font"
+            android:textStyle="bold"
+            android:layout_marginStart="15dp"
+            android:layout_width="wrap_content"
+            android:text="About"
+            android:layout_height="wrap_content" />
+
+        <android.support.v7.widget.CardView
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            app:cardCornerRadius="5dp"
+            android:layout_marginBottom="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            app:cardUseCompatPadding="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!-- <ImageView
+                    android:tint="@color/grey"
+                    android:padding="20dp"
+                    android:layout_width="match_parent"
+                    android:src="@drawable/ic_pulse"
+                    android:layout_height="110dp" />-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/githubImage"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_marginEnd="15dp"
+                        android:background="@drawable/history_background"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/ic_github"
+                        android:tint="@color/grey" />
+
+                    <ImageView
+                        android:id="@+id/pulseWebImage"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:background="@drawable/history_background"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/ic_pulse"
+                        android:tint="@color/grey" />
+
+                    <ImageView
+                        android:id="@+id/myWebImage"
+                        android:layout_width="32dp"
+                        android:layout_height="32dp"
+                        android:layout_marginStart="15dp"
+                        android:background="@drawable/history_background"
+                        android:clickable="true"
+                        android:focusable="true"
+                        android:src="@drawable/ic_web"
+                        android:tint="@color/grey" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="15dp"
+                    android:fontFamily="@font/dmsans_font"
+                    android:text="Support me by sharing app with your friends &#38; colleagues."
+                    android:textAlignment="center"
+                    android:textColor="@color/light_white" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorScreen1" />
+
+                <LinearLayout
+                    android:id="@+id/SOW_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/history_background"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_whatsapp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="15dp"
+                        android:fontFamily="@font/dmsans_font"
+                        android:gravity="center_vertical"
+                        android:text="Share on Whatsapp"
+                        android:textColor="@color/bit_light_white"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorScreen1" />
+
+                <LinearLayout
+                    android:id="@+id/SOF_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/history_background"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:orientation="horizontal"
+                    android:padding="10dp">
+
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/ic_facebook" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="15dp"
+                        android:fontFamily="@font/dmsans_font"
+                        android:gravity="center_vertical"
+                        android:text="Share on Facebook"
+                        android:textColor="@color/bit_light_white"
+                        android:textSize="16sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_gravity="center"
+            android:layout_marginBottom="15dp"
+            android:id="@+id/settingsLayout"
+            android:clickable="true"
+            android:focusable="true"
+            android:orientation="horizontal"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:background="@drawable/settings_shape"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp">
+            <ImageView
+                android:layout_gravity="center_vertical"
+                android:tint="@color/colorScreen"
+                android:src="@drawable/ic_settings"
+                android:layout_width="16dp"
+                android:layout_height="16dp" />
+            <TextView
+                android:textSize="14sp"
+                android:layout_marginEnd="5dp"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:gravity="center_vertical"
+                android:text="SETTINGS"
+                android:textColor="@color/colorScreen"
+                android:fontFamily="@font/dmsans_font"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v4.widget.NestedScrollView>

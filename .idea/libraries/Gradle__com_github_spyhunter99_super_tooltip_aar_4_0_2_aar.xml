@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.spyhunter99:super-tooltip-aar:4.0.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c412484208fbb2bd5f42c93542ac970c/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/c412484208fbb2bd5f42c93542ac970c/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.spyhunter99/super-tooltip-aar/4.0.2/a0e3544eed49971f13fd22b8054d7a0ade808a0b/super-tooltip-aar-4.0.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

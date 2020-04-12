@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?android:attr/actionBarSize"
+            android:elevation="3dp"
+            app:contentInsetEnd="0dp"
+            app:contentInsetLeft="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetStart="0dp"
+            app:contentInsetStartWithNavigation="0dp"
+            app:titleTextColor="@color/colorPrimaryDark">
+
+           <android.support.constraint.ConstraintLayout
+               android:orientation="horizontal"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+               <AutoCompleteTextView
+                   app:layout_constraintTop_toTopOf="parent"
+                   app:layout_constraintBottom_toBottomOf="parent"
+                   app:layout_constraintStart_toStartOf="parent"
+                   app:layout_constraintEnd_toStartOf="@id/removeText"
+                   android:id="@+id/searchEditText"
+                   android:background="@android:color/transparent"
+                   android:layout_width="0dp"
+                   android:imeOptions="actionDone"
+                   android:layout_margin="8dp"
+                   android:inputType="text"
+                   android:padding="8dp"
+                   android:layout_height="wrap_content"
+                   android:completionThreshold="1"
+                   android:hint="@string/search"
+                   android:popupBackground="@color/colorScreen" />
+               <ImageView
+                   android:visibility="gone"
+                   android:layout_marginEnd="5dp"
+                   app:layout_constraintBottom_toBottomOf="parent"
+                   app:layout_constraintTop_toTopOf="parent"
+                   android:tint="@color/grey"
+                   app:layout_constraintEnd_toEndOf="parent"
+                   android:id="@+id/removeText"
+                   android:layout_width="wrap_content"
+                   android:src="@drawable/ic_close"
+                   android:layout_height="40dp"/>
+           </android.support.constraint.ConstraintLayout>
+
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+
+        <LinearLayout
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/trendingNow"
+                android:layout_width="match_parent"
+                android:padding="7dp"
+                android:textSize="12sp"
+                android:text="RECENT ACTIVITY"
+                android:layout_height="wrap_content"/>
+            <android.support.v7.widget.CardView
+                android:id="@+id/recyclerCard"
+                app:cardCornerRadius="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimaryDark">
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorPrimaryDark">
+                    <ProgressBar
+                        android:id="@+id/progressBar"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:indeterminateDrawable="@drawable/progress"/>
+                    <android.support.v7.widget.RecyclerView
+                        android:layout_margin="2dp"
+                        android:id="@+id/my_recycler_view"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/colorPrimaryDark">
+                    </android.support.v7.widget.RecyclerView>
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

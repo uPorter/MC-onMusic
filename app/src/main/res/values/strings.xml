@@ -1,0 +1,256 @@
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MC-onMusic</string>
+    <string name="tandt">Terms and conditions?</string>
+    <string name="weburl">0</string>
+    <string name="title_home">History</string>
+    <string name="title_dashboard">Search</string>
+    <string name="title_notifications">Library</string>
+    <!-- TODO: Change download link -->
+    <string name="updateUri">0</string>
+    <string name="error">Not a stable connection</string>
+    <string name="shipped_ffmpeg_version">n2.4.2</string>
+
+    <string name="set_default_notification">Saved!  Make this your default notification?</string>
+
+    <string name="artist_name">Ringdroid artist</string>
+
+    <string name="progress_dialog_loading">Loading…</string>
+    <string name="progress_dialog_recording">Recording…</string>
+    <string name="progress_dialog_saving">Saving…</string>
+    <string name="progress_dialog_cancel">Cancel</string>
+    <string name="progress_dialog_stop">Stop</string>
+
+    <string name="menu_save">Save</string>
+    <string name="menu_reset">Reset</string>
+
+    <string name="start_marker">Start marker</string>
+    <string name="end_marker">End marker</string>
+    <string name="rewind">Rewind</string>
+    <string name="ffwd">Fast forward</string>
+
+    <string name="start_label">Start:</string>
+    <string name="end_label">End:</string>
+
+    <string name="edit_intent">MC-onMusic Edit</string>
+
+    <string name="time_seconds">seconds</string>
+
+    <string name="about_title">About Ringdroid</string>
+    <string name="about_text"><![CDATA[Use Ringdroid to edit MP3, OGG, WAV, AAC, and AMR audio files and create ringtones, alarms, and notifications from them.\n\nTip: copy audio files to your SD card using a USB cable.\n\nTip: tap anywhere on the waveform to start playing at that position.\n\nTip: while playing, tap the word Start or End to quickly set the start and end markers to the current playback time.\n\nVersion %s\n\nDeveloper: Dominic Mazzoni, Nicolas Faralli\nGraphics: Joseph Wain\nSupport and evangelizing: Eugene Koh\nEnhancements: Dan Klufas\n\nRingdroid is free software, distributed under the Apache 2.0 license.  Source code is on github.com/google/ringdroid\n]]></string>
+
+
+    <string name="bad_extension_error">Sorry, Ringdroid is not yet able to edit files of type</string>
+    <string name="no_extension_error">Sorry, Ringdroid can\'t edit a file if it doesn\'t have an extension like .mp3 or .wav</string>
+
+    <string name="play_error">Unable to play this media file</string>
+    <string name="no_unique_filename">Unable to find unique filename</string>
+    <string name="record_error">Error recording audio</string>
+    <string name="too_small_error">Can\'t save a file that small, try making it longer.</string>
+    <string name="write_error">Error writing file</string>
+    <string name="read_error">Error reading file</string>
+
+    <string name="no_space_error">Your SD card is full, there is not enough space to save this file.</string>
+
+
+    <string name="file_save_title">Save As:</string>
+    <string name="file_save_button_save">Save</string>
+    <string name="file_save_button_cancel">Cancel</string>
+
+    <string name="ringtone_type_label">Type:</string>
+
+    <string name="type_music">Music</string>
+    <string name="type_alarm">Alarm</string>
+    <string name="type_notification">Notification</string>
+    <string name="type_ringtone">Ringtone</string>
+
+    <string name="ringtone_name_label">Name:</string>
+
+    <string name="alert_title_success">Success</string>
+    <string name="alert_title_failure">Error</string>
+    <string name="alert_ok_button">OK</string>
+    <string name="alert_yes_button">Yes, please!</string>
+    <string name="alert_no_button">No, thanks.</string>
+    <string name="play">play</string>
+    <string name="stop">Stop.</string>
+
+
+    <string name="durationformatshort" translatable="false"><xliff:g id="format">%2$d:%3$02d</xliff:g></string>
+    <string name="durationformatlong" translatable="false"><xliff:g id="format">%1$d:%2$02d:%3$02d</xliff:g></string>
+    <string name="set_ringtone">Set Ringtone!</string>
+    <string name="write_setting_text">Ringtone make requiers permission to \'Write Settings\' in order to set your ringtone.\n After granting permission, try setting your ringtone again.</string>
+    <string name="addplayList">Add to playlist</string>
+    <string name="loop">Loop</string>
+
+    <string name="helpMessage">Go to the official <a href="1001110">website</a> to request for help regarding your issue.
+        You can also visit <a href="1001110">Github</a> repository to create issue.</string>
+    <string name="history_text"><![CDATA[You can tap and hold the card to see some of the common options like Copy Link, Watch on YouTube & stuff.]]></string>
+    <string name="history_title">Tap and hold the card</string>
+    <string name="search_title">Change your region</string>
+    <string name="search_text"><![CDATA[You can change Region from settings to get latest trend & viral songs from that particular region.]]></string>
+    <string name="channel_name">Downloader</string>
+    <string name="channel_description">Youtube Music Player</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="rfq">Remove from queue</string>
+    <string name="purchaseContact">Not able to make purchase</string>
+    <string name="default_client_id" translatable="false">11</string>
+    <string name="pgt">If you have any problem with the gateway like premium not activated after payment</string>
+    <string name="htg">How to guide</string>
+    <string name="rescan_lib">Rescaning library?</string>
+    <string name="rescan_text">Whenever you are adding new songs to storage, make sure to Rescan library by clicking 3 dots on top right corner.</string>
+    <string name="header_playlist">#!/ytplayer-playlist</string>
+
+
+    <string name="local_slabel">Local Music</string>
+    <string name="local_dlabel">Local Music (Disabled)</string>
+
+    <string name="search_slabel">Search</string>
+    <string name="search_dlabel">Search (Disabled)</string>
+    <string name="adk_string">Create mods for Android app using <b>ADK</b>, a best reverse engineering tool.</string>
+    <string name="kling_string"><b>Kling</b> is a PC app which allows you to visually display any key pressed on keyboard.</string>
+    <string name="iso2usb_string"><b>Iso2Usb</b> allows you to create bootable usb media of Windows, Linux iso file.</string>
+    <string name="browse">Browse</string>
+    <string name="discover">Discover</string>
+    <string name="search2">Search</string>
+    <string name="edit_image">Edit Image</string>
+    <string name="alphabetical">Alphabetical</string>
+    <string name="date_added">Date added</string>
+    <string name="file_name">File name</string>
+    <string name="duration">Duration</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
+    <string name="rescan_folder">Rescan folder</string>
+    <string name="sort_order">Sort order</string>
+    <string name="open">Open</string>
+    <string name="modify">Modify</string>
+    <string name="export">Export</string>
+    <string name="rescan_library">Rescan library</string>
+    <string name="play2">Play</string>
+    <string name="play3">Play</string>
+    <string name="play4">Play</string>
+    <string name="play_next">Play Next</string>
+    <string name="add_to_queue">Add to queue</string>
+    <string name="edit_tags">Edit tags</string>
+    <string name="set_as_ringtone">Set as ringtone</string>
+    <string name="play5">Play</string>
+    <string name="clear_history">Clear History</string>
+    <string name="send">Send</string>
+    <string name="volume">Volume</string>
+    <string name="select_all">Select All</string>
+    <string name="deselect_all">Deselect All</string>
+    <string name="playlist_name">Playlist Name</string>
+    <string name="looks_like_download_queue_is_empty">Looks like download queue is empty</string>
+    <string name="current">Current</string>
+    <string name="parsing_video_details">Parsing video details...</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="unlock_unlimited_downloads">Unlock unlimited downloads</string>
+    <string name="purchase">Purchase</string>
+    <string name="leave_your_report_message">Leave your report message</string>
+    <string name="crash_logs">Crash Logs</string>
+    <string name="view">View</string>
+    <string name="lets_play">Lets Play</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="next_song">Next Song</string>
+    <string name="update">Update</string>
+    <string name="download">Download</string>
+    <string name="select_format_for_download">Select format for download</string>
+    <string name="name">Name</string>
+    <string name="enter_name_for_playlist">Enter name for playlist</string>
+    <string name="choose_playlist_items">Choose playlist items</string>
+    <string name="long_press_and_hold_to_view_songs">Long press and hold to view songs</string>
+    <string name="in_order_to_add_songs_from_playlist_url_go_to_library_playlist_create_modify_add_playlist"><![CDATA[In order to add songs from playlist url go to Library > Playlist > Create/Modify > Add playlist.]]></string>
+    <string name="how_to_parse_playlist_url">How to parse playlist url?</string>
+    <string name="playlist_support">Playlist support</string>
+    <string name="create_new_playlist">Create new playlist</string>
+    <string name="parsing_song">Parsing Song</string>
+    <string name="rescan_library2">Rescan Library</string>
+    <string name="scanning_folder">Scanning Folder:</string>
+    <string name="choose">Choose</string>
+    <string name="save_to_local_storage">Save to Local storage</string>
+    <string name="share_with_people">Share with people</string>
+    <string name="details">Details</string>
+    <string name="file_path">File path:</string>
+    <string name="file_name2">File name:</string>
+    <string name="size">Size:</string>
+    <string name="format">Format:</string>
+    <string name="length">Length:</string>
+    <string name="bitrate">Bitrate:</string>
+    <string name="sampling_rate">Sampling rate:</string>
+    <string name="audio_codec">Audio Codec</string>
+    <string name="video_codec">Video Codec</string>
+    <string name="folder">Folder</string>
+    <string name="for_you">For You</string>
+    <string name="your_favourite_tracks">Your Favourite Tracks</string>
+    <string name="your_daily_mix">Your Daily Mix</string>
+    <string name="taz_network_songs">Taz Network Songs</string>
+    <string name="listen_again">Listen Again</string>
+    <string name="audio_cutter">Audio Cutter</string>
+    <string name="equalizer">Equalizer</string>
+    <string name="sleep_timer">Sleep Timer</string>
+    <string name="local_music">Local Music</string>
+    <string name="playlists">Playlists</string>
+    <string name="liked_tracks">Liked Tracks</string>
+    <string name="search">Search</string>
+    <string name="no_connection">No Connection</string>
+    <string name="playlist_is_empty">Playlist is empty</string>
+    <string name="new_songs">New Songs</string>
+    <string name="the_newest_songs_every_friday_are_here">The newest songs every Friday are here.</string>
+    <string name="trending">Trending</string>
+    <string name="see_all">SEE ALL</string>
+    <string name="selected_for_you">Selected For You</string>
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="remove_from_history">Remove from history</string>
+    <string name="watch_on_youtube">Watch on YouTube</string>
+    <string name="download_as">Download as...</string>
+    <string name="copy_link">Copy link</string>
+    <string name="share">Share</string>
+    <string name="popular_playlists">Popular Playlists</string>
+    <string name="listen_and_live">Listen and Live</string>
+    <string name="move_on">Move On</string>
+    <string name="best_music_for_exercise">Best Music For exercise</string>
+    <string name="light_music">Light Music</string>
+    <string name="light_turkish_songs_songs">Light Turkish Songs Songs</string>
+    <string name="best_alan_walker_songs">Best Alan Walker Songs</string>
+    <string name="most_popular_an_er_songs">Most Popular Şanışer Songs</string>
+    <string name="regional">Regional</string>
+    <string name="most_viewed_50">Most Viewed 50</string>
+    <string name="top_most_viewed_music_video_on_youtube">Top most viewed music video on YouTube</string>
+    <string name="most_popular_50">Most Popular 50</string>
+    <string name="top_most_popular_music_video_on_youtube">Top most popular music video on YouTube</string>
+    <string name="weekly_popular_50">Weekly Popular 50</string>
+    <string name="weekly_updated_popular_music_video_on_youtube">Weekly updated popular music video on YouTube</string>
+    <string name="songs_for_your_coffe_time">Songs for your coffe time.</string>
+    <string name="pop_songs_but_soooft">PoP songs but Soooft</string>
+    <string name="best_deep_house_songs">Best Deep House Songs</string>
+    <string name="best_songs_for_book_lovers">Best Songs For Book Lovers</string>
+    <string name="top_80s_songs">Top 80s Songs.</string>
+    <string name="czzzz_ohh_this_songs_very_electrical">czzzz Ohh This Songs very Electrical</string>
+    <string name="you_can_listen_these_songs_all_night">You Can Listen These Songs All Night</string>
+    <string name="yeah_guys_best_ever_party_songs">Yeah Guys Best Ever Party Songs</string>
+    <string name="best_edm_songs">Best EDM Songs.</string>
+    <string name="most_popular_indie_songs">Most Popular Indie Songs</string>
+    <string name="oh_very_good_spanish_songs">Oh Very Good Spanish Songs</string>
+    <string name="music_good_for_your_soul">Music good for your soul</string>
+    <string name="music_to_help_you_focus">Music to help you focus.</string>
+    <string name="music_that_will_increase_your_creativity">Music that will increase your creativity.</string>
+    <string name="songs_to_listen_to_while_working">Songs to listen to while working</string>
+    <string name="songs_you_can_listen_to_while_reading_a_book">Songs you can listen to while reading a book.</string>
+    <string name="these_songs_will_comfort_you">These songs will comfort you.</string>
+    <string name="stop_audio_in">Stop audio in</string>
+    <string name="_5_minutes">5 minutes</string>
+    <string name="_10_minutes">10 minutes</string>
+    <string name="_15_minutes">15 minutes</string>
+    <string name="_30_minutes">30 minutes</string>
+    <string name="_45_minutes">45 minutes</string>
+    <string name="_1_hour">1 hour</string>
+    <string name="end_of_track">End of track</string>
+    <string name="global_top_100">Global Top 100</string>
+    <string name="daily_update_of_most_played_tracks_on_youtube">Daily update of most played tracks on YouTube</string>
+    <string name="daily_update_of_most_viral_tracks_on_youtube">Daily update of most viral tracks on YouTube</string>
+    <string name="some_hot_and_popular_music_from_soundcloud">Some hot and popular music from SoundCloud</string>
+    <string name="discover_more" translatable="false">Discover More</string>
+    <string name="dlttt">Delete</string>
+    <string name="asdws">Are you sure? This cannot be undone.</string>
+</resources>

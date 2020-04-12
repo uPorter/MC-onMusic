@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="mdcolor_500">
+
+    </array>
+
+    <string-array name="reverb_presets">
+        <item>None</item>
+        <item>Small Room</item>
+        <item>Medium Room</item>
+        <item>Large Room</item>
+        <item>Medium Hall</item>
+        <item>Large Hall</item>
+        <item>Plate</item>
+    </string-array>
+
+    <string-array name="autocomplete_genre">
+        <item>Blues</item>
+        <item>Classic Rock</item>
+        <item>Country</item>
+        <item>Dance</item>
+        <item>Disco</item>
+        <item>Funk</item>
+        <item>Grunge</item>
+        <item>Hip-Hop</item>
+        <item>Jazz</item>
+        <item>Metal</item>
+        <item>New Age</item>
+        <item>Oldies</item>
+        <item>Other</item>
+        <item>Pop</item>
+        <item>R&amp;B</item>
+        <item>Rap</item>
+        <item>Reggae</item>
+        <item>Rock</item>
+        <item>Techno</item>
+        <item>Industrial</item>
+        <item>Alternative</item>
+        <item>Ska</item>
+        <item>Death Metal</item>
+        <item>Pranks</item>
+        <item>Soundtrack</item>
+        <item>Euro-Techno</item>
+        <item>Ambient</item>
+        <item>Trip-Hop</item>
+        <item>Vocal</item>
+        <item>Jazz+Funk</item>
+        <item>Fusion</item>
+        <item>Trance</item>
+        <item>Classical</item>
+        <item>Instrumental</item>
+        <item>Acid</item>
+        <item>House</item>
+        <item>Game</item>
+        <item>Sound Clip</item>
+        <item>Gospel</item>
+        <item>Noise</item>
+        <item>AlternRock</item>
+        <item>Bass</item>
+        <item>Soul</item>
+        <item>Punk</item>
+        <item>Space</item>
+        <item>Meditative</item>
+        <item>Instrumental Pop</item>
+        <item>Instrumental Rock</item>
+        <item>Ethnic</item>
+        <item>Gothic</item>
+        <item>Darkwave</item>
+        <item>Techno-Industrial</item>
+        <item>Electronic</item>
+        <item>Pop-Folk</item>
+        <item>Eurodance</item>
+        <item>Dream</item>
+        <item>Southern Rock</item>
+        <item>Comedy</item>
+        <item>Cult</item>
+        <item>Gangsta</item>
+        <item>Top 40</item>
+        <item>Christian Rap</item>
+        <item>Pop/Funk</item>
+        <item>Jungle</item>
+        <item>Native American</item>
+        <item>Cabaret</item>
+        <item>New Wave</item>
+        <item>Psychadelic</item>
+        <item>Rave</item>
+        <item>Showtunes</item>
+        <item>Trailer</item>
+        <item>Lo-Fi</item>
+        <item>Tirbal</item>
+        <item>Acid Punk</item>
+        <item>Acid Jazz</item>
+        <item>Polka</item>
+        <item>Retro</item>
+        <item>Musical</item>
+        <item>Rock &amp; Roll</item>
+        <item>Hard Rock</item>
+    </string-array>
+
+    <string-array name="pref_image_entries">
+        <item>Medium quality</item>
+        <item>High quality</item>
+        <item>Max quality</item>
+    </string-array>
+
+    <string-array name="pref_image_values">
+        <item>mq</item>
+        <item>hq</item>
+        <item>maxres</item>
+    </string-array>
+
+    <string-array name="pref_region_entries">
+        <item>Global (Default)</item>
+        <item>Turkey</item>
+        <item>United States</item>
+        <item>United Kingdom</item>
+        <item>Australia</item>
+        <item>Belgium</item>
+        <item>Brazil</item>
+        <item>Canada</item>
+        <item>Switzerland</item>
+        <item>Colombia</item>
+        <item>Germany</item>
+        <item>Estonia</item>
+        <item>Spain</item>
+        <item>France</item>
+        <item>Greece</item>
+        <item>Hong Kong</item>
+        <item>Ireland</item>
+        <item>Israel</item>
+        <item>India</item>
+        <item>Indonesia</item>
+        <item>Iceland</item>
+        <item>Italy</item>
+        <item>Japan</item>
+        <item>Luxembourg</item>
+        <item>Mexico</item>
+        <item>Malaysia</item>
+        <item>Netherlands</item>
+        <item>Norway</item>
+        <item>New Zealand</item>
+        <item>Romania</item>
+        <item>Singapore</item>
+        <item>South Africa</item>
+        <item>Thailand</item>
+    </string-array>
+
+    <string-array name="pref_region_values">
+        <item>global</item>
+        <item>tr</item>
+        <item>us</item>
+        <item>gb</item>
+        <item>au</item>
+        <item>be</item>
+        <item>br</item>
+        <item>ca</item>
+        <item>ch</item>
+        <item>co</item>
+        <item>de</item>
+        <item>ee</item>
+        <item>es</item>
+        <item>fr</item>
+        <item>gr</item>
+        <item>hk</item>
+        <item>ie</item>
+        <item>il</item>
+        <item>in</item>
+        <item>id</item>
+        <item>is</item>
+        <item>it</item>
+        <item>jp</item>
+        <item>lu</item>
+        <item>mx</item>
+        <item>my</item>
+        <item>nl</item>
+        <item>no</item>
+        <item>nz</item>
+        <item>ro</item>
+        <item>sg</item>
+        <item>za</item>
+        <item>th</item>
+    </string-array>
+</resources>

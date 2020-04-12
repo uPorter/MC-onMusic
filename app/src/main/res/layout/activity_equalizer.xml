@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/mainlayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EqualizerActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout2"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="Preset"
+                android:textSize="15sp" />
+            <Spinner
+                android:id="@+id/preset_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp" />
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_gravity="center_horizontal"
+                android:orientation="vertical"
+                android:rotation="-90">
+
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_alignParentBottom="true"
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:orientation="horizontal"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+          <TextView
+              android:layout_gravity="center_vertical"
+              android:textSize="15sp"
+              android:text="Reverb"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"/>
+          <Spinner
+              android:layout_marginStart="20dp"
+              android:id="@+id/reverb_spinner"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"/>
+      </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:textSize="15sp"
+                android:text="Bass Boost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <com.warkiz.widget.IndicatorSeekBar
+                app:isb_indicator_color="@color/colorAccent"
+                android:id="@+id/bass_boast_seekBar"
+                app:isb_thumb_color="@color/colorAccent"
+                app:isb_track_progress_color="@color/colorAccent"
+                android:layout_marginStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:textSize="15sp"
+                android:text="Virtualizer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <com.warkiz.widget.IndicatorSeekBar
+                app:isb_indicator_color="@color/colorAccent"
+                android:id="@+id/virtualizer_seekBar"
+                app:isb_thumb_color="@color/colorAccent"
+                app:isb_track_progress_color="@color/colorAccent"
+                android:layout_marginStart="29dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_gravity="center_vertical"
+                android:textSize="15sp"
+                android:text="Loudness"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <com.warkiz.widget.IndicatorSeekBar
+                app:isb_indicator_color="@color/colorAccent"
+                android:id="@+id/loudness_seekBar"
+                app:isb_thumb_color="@color/colorAccent"
+                app:isb_track_progress_color="@color/colorAccent"
+                android:layout_marginStart="32dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:id="@+id/purchaseLayout"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:padding="13dp"
+            android:background="@color/background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_alignParentStart="true"
+                android:textSize="15sp"
+                android:fontFamily="@font/dmsans_font"
+                android:textColor="@color/white"
+                android:layout_marginStart="5dp"
+                android:text="Unlock complete Equalizer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <Button
+                android:id="@+id/purchaseButton"
+                android:layout_alignParentEnd="true"
+                android:textColor="@color/colorAccent"
+                android:text="Purchase"
+                android:minHeight="0dp"
+                android:background="@android:color/transparent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>

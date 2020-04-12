@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Genel">
+        <ListPreference
+            android:defaultValue="global"
+            android:dialogTitle="Select Region"
+            android:entries="@array/pref_region_entries"
+            android:entryValues="@array/pref_region_values"
+            android:key="pref_select_region"
+            android:summary="Trendler ve Viral Parçalar Seçiminize Göre Değişir"
+            android:title="Bölgenizi Seçin" />
+        <SwitchPreference
+            android:key="pref_audioChange"
+            android:defaultValue="true"
+            android:title="Ses Odağının Değişimini Dinle"
+            android:summary=""/>
+        <SwitchPreference
+            android:key="pref_muxer"
+            android:defaultValue="true"
+            android:title="Use FFMPEG for muxing video streams"
+            android:summary="Standart muxer ve ffmpeg arasında geçiş yapın. Video oynatma başarısız olursa bunu KAPALI konuma getirin."/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Görüntü &#38; Estetik">
+        <ListPreference
+            android:defaultValue="mq"
+            android:dialogTitle="Image quality"
+            android:entries="@array/pref_image_entries"
+            android:entryValues="@array/pref_image_values"
+            android:key="pref_image_quality"
+            android:summary="Oynatıcıda ve medya etiketinde kullanılacak görüntü kalitesi."
+            android:title="Görüntü Kalitesi" />
+    </PreferenceCategory>
+
+
+
+    <PreferenceCategory android:title="Veri Yedeklemesi">
+        <Preference
+            android:key="pref_backup"
+            android:title="Veriyi Yedekle"
+            android:summary="Bu, geçmişinizi, oynatma listenizi ve tüm önemli oturumlarınızı yedekleyecektir."/>
+        <Preference
+            android:key="pref_restore"
+            android:title="Veriyi içe Aktar"
+            android:summary="Kaydedilmiş veriyi içeri aktar."/>
+        <Preference
+            android:key="pref_delete"
+            android:title="Yedeklenmiş Verileri Temizle"
+            android:summary="Kaydedilmiş tüm oturumlarınızı temizleyin."/>
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

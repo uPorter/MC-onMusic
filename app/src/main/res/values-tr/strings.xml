@@ -1,0 +1,255 @@
+<resources xmlns:ns0="urn:oasis:names:tc:xliff:document:1.2">
+
+<string name="app_name">MC-onMusic</string>
+    <string name="tandt">Şartlar ve koşullar?</string>
+    <string name="weburl">0</string>
+    <string name="title_home">Geçmiş</string>
+    <string name="title_dashboard">Arama</string>
+    <string name="title_notifications">Kütüphane</string>
+    
+    <string name="updateUri">0</string>
+    <string name="error">Sabit bir Bağlantı Bulunamadı</string>
+    <string name="shipped_ffmpeg_version">n2.4.2</string>
+
+    <string name="set_default_notification">Kaydedilen Dosyayı Varsayılan Bİldirim Sesi Yap</string>
+
+    <string name="artist_name">Ringdroid sanatçısı</string>
+
+    <string name="progress_dialog_loading">Yükleniyor…</string>
+    <string name="progress_dialog_recording">Kaydediliyor...</string>
+    <string name="progress_dialog_saving">Kaydediliyor ...</string>
+    <string name="progress_dialog_cancel">İptal et</string>
+    <string name="progress_dialog_stop">Dur</string>
+
+    <string name="menu_save">Kayıt et</string>
+    <string name="menu_reset">Sıfırla</string>
+
+    <string name="start_marker">Başlangıç işaretçisi</string>
+    <string name="end_marker">Bitiş işareti</string>
+    <string name="rewind">Geri sar</string>
+    <string name="ffwd">İleri sar</string>
+
+    <string name="start_label">Başlangıç:</string>
+    <string name="end_label">Son:</string>
+
+    <string name="edit_intent">MC-onMusic Edit</string>
+
+    <string name="time_seconds">saniye</string>
+
+    <string name="about_title">Ringdroid hakkında</string>
+    <string name="about_text">e</string>
+
+
+    <string name="bad_extension_error">Maalesef, Ringdroid henüz bu dosya türlerini düzenleyemez,</string>
+    <string name="no_extension_error">Maalesef, .mp3 veya .wav gibi bir uzantıya sahip değilse Ringdroid bir dosyayı düzenleyemez</string>
+
+    <string name="play_error">Bu medya dosyası oynatılamıyor</string>
+    <string name="no_unique_filename">Benzersiz dosya adı bulunamadı</string>
+    <string name="record_error">Ses kaydedilirken hata oluştu</string>
+    <string name="too_small_error">Küçük bir dosyayı kaydedemiyorum, daha uzun yapmayı deneyin.</string>
+    <string name="write_error">Dosya yazma hatası</string>
+    <string name="read_error">Dosya okunurken hata oluştu</string>
+
+    <string name="no_space_error">SD kartınız dolu, bu dosyayı kaydetmek için yeterli alan yok.</string>
+
+
+    <string name="file_save_title">Farklı kaydet:</string>
+    <string name="file_save_button_save">Kaydet</string>
+    <string name="file_save_button_cancel">İptal et</string>
+
+    <string name="ringtone_type_label">Tür:</string>
+
+    <string name="type_music">Müzik</string>
+    <string name="type_alarm">Alarm</string>
+    <string name="type_notification">Bildirim</string>
+    <string name="type_ringtone">Zil</string>
+
+    <string name="ringtone_name_label">Ad:</string>
+
+    <string name="alert_title_success">Başarılı</string>
+    <string name="alert_title_failure">Hata</string>
+    <string name="alert_ok_button">tamam</string>
+    <string name="alert_yes_button">Evet lütfen!</string>
+    <string name="alert_no_button">Hayır teşekkürler.</string>
+    <string name="play">Başlat</string>
+    <string name="stop">Durdur.</string>
+
+
+    <string name="durationformatshort" translatable="false"><ns0:g id="format">%2$d:%3$02d</ns0:g></string>
+    <string name="durationformatlong" translatable="false"><ns0:g id="format">%1$d:%2$02d:%3$02d</ns0:g></string>
+    <string name="set_ringtone">Zil sesi olarak ayarla!</string>
+    <string name="write_setting_text">Gerekli Sistem İzinlerini Verdikten Sonra Tekrar Deneyin</string>
+    <string name="addplayList">Oynatma listesine ekle</string>
+    <string name="loop">döngü</string>
+
+    <string name="helpMessage">Görevliye git<a href="1001110"> İnternet sitesi</a> Sorununuzla ilgili yardım istemek için.         Ayrıca ziyaret edebilirsiniz<a href="1001110"> Github</a> oluşturmak için veri havuzu.</string>
+    <string name="history_text">Bağlantıyı Kopyala, YouTube\'da İzle gibi yaygın seçeneklerden bazılarını görmek için karta dokunup basılı tutabilirsiniz</string>
+    <string name="history_title">Karta uzun dokunun</string>
+    <string name="search_title">Bölgenizi değiştirin</string>
+    <string name="search_text">En yeni eğilimi elde etmek için Bölge\'yi ayarlardan değiştirebilirsiniz</string>
+    <string name="channel_name">Downloader</string>
+    <string name="channel_description">Youtube İndirici</string>
+
+    
+    <string name="hello_blank_fragment">Merhaba boş parça</string>
+    <string name="rfq">Kuyruktan kaldır</string>
+    <string name="purchaseContact">1011</string>
+    <string name="default_client_id" translatable="false">11</string>
+    <string name="pgt">Ağ geçidi ile ilgili herhangi bir sorunuz varsa ödeme yapıldıktan sonra prim etkinleştirilmez</string>
+    <string name="htg">Nasıl yapılır? "rehberi</string>
+    <string name="rescan_lib">Kitaplık yeniden taransın mı?</string>
+    <string name="rescan_text">Depoya Yeni Şarkı Ekledikten Sonra 3 Nokta İkonuna Basarak Yeniden Tarama Yapmayı Unutmayın.</string>
+    <string name="header_playlist">d&gt;&lt;title&gt;Google Çeviri&lt;/title&gt;&lt;style&gt;body{font:normal small arial,sans-serif,helvetica;text-align:center}body,html,form,div,p,img,input{margin:0padding:0}body{padding:3px}.nb{border:0}.s1{padding:5px}.ub{border-top:1px solid #36c}.db{border-bottom:1px solid #36c}.blue{background:#ebeff9}.pt{padding-top:5px}form{padding:5px 5px 3px}.s2{padding-top:2px;padding-bottom:2px}div{border:1px solid #fff}html,body{background:#fff}body{padding-top:6px}.small{font-size:small}.title{vertical-align:middle}.center{text-align:center}#arrow{padding:5px;vertical-align:-1px;text-decoration:none}&lt;/style&gt;&lt;meta content="text/html; charset=ISO-8859-9" http-equiv="content-type"/&gt;&lt;/head&gt;&lt;body dir="ltr"&gt;&lt;div&gt;&lt;img class="title" height="16" width="48" src="https://www.gstatic.com/images/branding/googlelogo/1x/googlelogo_color_48x16dp.png"alt="Google" style="margin-top: -2px"/&gt; &lt;span class="small"&gt;Çeviri&lt;/span&gt;</string>
+
+
+    <string name="local_slabel">Yerel Müzik</string>
+    <string name="local_dlabel">Yerel Müzik (Devre Dışı)</string>
+
+    <string name="search_slabel">Arama</string>
+    <string name="search_dlabel">Arama (Devre Dışı)</string>
+    <string name="adk_string">Kullanarak Android uygulaması için modlar oluşturun<b> ADK</b> , en iyi tersine mühendislik aracı.</string>
+    <string name="kling_string"><b> Kling</b> klavyede basılan herhangi bir tuşu görsel olarak görüntülemenizi sağlayan bir PC uygulamasıdır.</string>
+    <string name="iso2usb_string"><b> antix2usb</b> Windows, Linux iso dosyası önyüklenebilir usb medya oluşturmanıza olanak sağlar.</string>
+    <string name="browse">Araştır</string>
+    <string name="discover">Keşfet</string>
+    <string name="search2">Ara</string>
+    <string name="edit_image">Resmi Düzenle</string>
+    <string name="alphabetical">Alfabetik</string>
+    <string name="date_added">Ekleme Tarihi</string>
+    <string name="file_name">Dosya adı</string>
+    <string name="duration">Uzunluk</string>
+    <string name="ascending">A-Z</string>
+    <string name="descending">Z-A</string>
+    <string name="rescan_folder">Klasörü yeniden tara</string>
+    <string name="sort_order">Sıralama düzeni</string>
+    <string name="open">Açık</string>
+    <string name="modify">Değiştir</string>
+    <string name="export">Dışa Aktar</string>
+    <string name="rescan_library">Kütüphaneyi yeniden tara</string>
+    <string name="play2">Başlat</string>
+    <string name="play3">Başlat</string>
+    <string name="play4">Başlat</string>
+    <string name="play_next">Sonraki Parçayı Çal.</string>
+    <string name="add_to_queue">Çalma Sırasına Ekle</string>
+    <string name="edit_tags">Etiketleri düzenle</string>
+    <string name="set_as_ringtone">Zil Sesi Olarak Ayarla</string>
+    <string name="play5">Başlat</string>
+    <string name="clear_history">Geçmişi Temizle</string>
+    <string name="send">Gönder</string>
+    <string name="volume">Ses</string>
+    <string name="select_all">Hepsini seç</string>
+    <string name="deselect_all">Tümünün seçimini kaldır</string>
+    <string name="playlist_name">Oynatma Listesinin Adı</string>
+    <string name="looks_like_download_queue_is_empty">İndirme kuyruğu boş görünüyor</string>
+    <string name="current">Şu an çalınan parça.</string>
+    <string name="parsing_video_details">Video ayrıntıları ayrıştırılıyor ...</string>
+    <string name="cancel">İptal etm</string>
+    <string name="ok">Tamam</string>
+    <string name="unlock_unlimited_downloads">Sınırsız indirme kilidini aç</string>
+    <string name="purchase">Satın alma</string>
+    <string name="leave_your_report_message">Rapor mesajınızı bırakın</string>
+    <string name="crash_logs">Hata Günlüğü</string>
+    <string name="view">Görünüm</string>
+    <string name="lets_play">Başlat</string>
+    <string name="now_playing">Şuan Çalınan Parça</string>
+    <string name="next_song">Sıradaki şarkı</string>
+    <string name="update">Güncelleme</string>
+    <string name="download">İndir</string>
+    <string name="select_format_for_download">İndirilecek formatı seçin</string>
+    <string name="name">ad</string>
+    <string name="enter_name_for_playlist">Oynatma listesi için ad girin</string>
+    <string name="choose_playlist_items">Oynatma listesi öğelerini seçin</string>
+    <string name="long_press_and_hold_to_view_songs">Şarkıları görüntülemek için uzun basın</string>
+    <string name="in_order_to_add_songs_from_playlist_url_go_to_library_playlist_create_modify_add_playlist">Çalma listesi url\'sinden şarkı eklemek için Kütüphane&gt; Çalma Listesi&gt; Oluştur /Değiştir&gt; Çalma listesi ekle\'ye gidin.</string>
+    <string name="how_to_parse_playlist_url">Oynatma listesi URL\'si nasıl ayrıştırılır?</string>
+    <string name="playlist_support">Oynatma listesi desteği</string>
+    <string name="create_new_playlist">Yeni çalma listesi oluştur</string>
+    <string name="parsing_song">Şarkı Ayrıştırılıyor</string>
+    <string name="rescan_library2">Kütüphaneyi Yeniden Tara</string>
+    <string name="scanning_folder">Tarama Klasörü:</string>
+    <string name="choose">Seç</string>
+    <string name="save_to_local_storage">Yerel depolamaya kaydet</string>
+    <string name="share_with_people">İnsanlarla paylaş</string>
+    <string name="details">ayrıntılar</string>
+    <string name="file_path">Dosya yolu:</string>
+    <string name="file_name2">Dosya adı:</string>
+    <string name="size">Boyut:</string>
+    <string name="format">Biçim:</string>
+    <string name="length">Uzunluk:</string>
+    <string name="bitrate">Bit Hızı:</string>
+    <string name="sampling_rate">Örnekleme oranı:</string>
+    <string name="audio_codec">Ses</string>
+    <string name="video_codec">Video</string>
+    <string name="folder">Klasör</string>
+    <string name="for_you">Senin için</string>
+    <string name="your_favourite_tracks">En Sevdiğiniz Parçalar</string>
+    <string name="your_daily_mix">Günlük Mixiniz</string>
+    <string name="taz_network_songs">Taz Network\'den Parçalar</string>
+    <string name="listen_again">Tekrar dinleyin</string>
+    <string name="audio_cutter">Ses Kesici</string>
+    <string name="equalizer">Ekolayzer</string>
+    <string name="sleep_timer">Uyku Zamanlayıcısı</string>
+    <string name="local_music">Yerel Müzik</string>
+    <string name="playlists">Çalma listeleri</string>
+    <string name="liked_tracks">Sevdiğiniz Parçalar</string>
+    <string name="search">Arama</string>
+    <string name="no_connection">Bağlantı yok</string>
+    <string name="playlist_is_empty">Oynatma listesi boş</string>
+    <string name="new_songs">Yeni Parçalar</string>
+    <string name="the_newest_songs_every_friday_are_here">Her Cuma Güncellenir.</string>
+    <string name="trending">Trendler</string>
+    <string name="see_all">TÜMÜNÜ GÖR</string>
+    <string name="selected_for_you">Sizin İçin Seçildi</string>
+    <string name="add_to_playlist">Oynatma listesine ekle</string>
+    <string name="remove_from_history">Tarihten kaldırmak</string>
+    <string name="watch_on_youtube">YouTube\'da izle</string>
+    <string name="download_as">Olarak indir...</string>
+    <string name="copy_link">Bağlantıyı kopyala</string>
+    <string name="share">Paylaş</string>
+    <string name="popular_playlists">Popüler Oynatma Listeleri</string>
+    <string name="listen_and_live">Dinleyin ve Yaşayın</string>
+    <string name="move_on">Harekete Geç</string>
+    <string name="best_music_for_exercise">Egzersiz İçin En İyi Müzikler</string>
+    <string name="light_music">Hafif müzik</string>
+    <string name="light_turkish_songs_songs">Hafif Türkçe Şarkılar</string>
+    <string name="best_alan_walker_songs">En İyi Alan Walker Şarkıları</string>
+    <string name="most_popular_an_er_songs">En Popüler Şanışer Şarkıları</string>
+    <string name="regional">Regional</string>
+    <string name="most_viewed_50">En Çok Dinlenen 50</string>
+    <string name="top_most_viewed_music_video_on_youtube">YouTube\'da en çok görüntülenen müzik videoları</string>
+    <string name="most_popular_50">En Popüler 50</string>
+    <string name="top_most_popular_music_video_on_youtube">YouTube\'daki en popüler müzik videoları</string>
+    <string name="weekly_popular_50">Haftalık Popüler 50</string>
+    <string name="weekly_updated_popular_music_video_on_youtube">YouTube\'da haftalık olarak güncellenen popüler müzik videoları</string>
+    <string name="songs_for_your_coffe_time">Kahve zamanınız için şarkılar.</string>
+    <string name="pop_songs_but_soooft">PoP şarkıları ama Soooft</string>
+    <string name="best_deep_house_songs">En İyi Deep House Şarkıları</string>
+    <string name="best_songs_for_book_lovers">Kitap Severler İçin En İyi Şarkılar</string>
+    <string name="top_80s_songs">En iyi 80\'ler Şarkıları.</string>
+    <string name="czzzz_ohh_this_songs_very_electrical">czzzz Ohh Bu Şarkılar çok Elektrik</string>
+    <string name="you_can_listen_these_songs_all_night">Bu Şarkıları Tüm Gece Dinleyebilirsiniz</string>
+    <string name="yeah_guys_best_ever_party_songs">Evet Çocuklar En İyi Parti Şarkıları</string>
+    <string name="best_edm_songs">En İyi EDM Şarkıları.</string>
+    <string name="most_popular_indie_songs">En Popüler Bağımsız Şarkılar</string>
+    <string name="oh_very_good_spanish_songs">Oh Çok İyi İspanyolca Şarkılar</string>
+    <string name="music_good_for_your_soul">Ruhunuza iyi gelecek müzikler</string>
+    <string name="music_to_help_you_focus">Odaklanmanıza yardımcı olacak müzikler.</string>
+    <string name="music_that_will_increase_your_creativity">Yaratıcılığınızı artıracak müzikler.</string>
+    <string name="songs_to_listen_to_while_working">Çalışırken dinlenecek şarkılar</string>
+    <string name="songs_you_can_listen_to_while_reading_a_book">Kitap okurken dinleyebileceğiniz şarkılar.</string>
+    <string name="these_songs_will_comfort_you">Bu şarkılar sizi rahatlatacak.</string>
+    <string name="stop_audio_in">Uyku Modu</string>
+    <string name="_5_minutes">5 dakika</string>
+    <string name="_10_minutes">10 dakika</string>
+    <string name="_15_minutes">15 dakika</string>
+    <string name="_30_minutes">30 dakika</string>
+    <string name="_45_minutes">45 dakika</string>
+    <string name="_1_hour">1 saat</string>
+    <string name="end_of_track">Parça Bittiğinde Durdur.</string>
+    <string name="global_top_100">Global İlk 100</string>
+    <string name="daily_update_of_most_played_tracks_on_youtube">YouTube\'daki popüler parçalar. Günlük Olarak Güncellenir </string>
+    <string name="daily_update_of_most_viral_tracks_on_youtube">YouTube\'daki viral parçalar. Günlük Olarak Güncellenir</string>
+    <string name="some_hot_and_popular_music_from_soundcloud">SoundCloud\'dan en iyi parçalar.</string>
+    <string name="discover_more" translatable="false">Daha Fazlasını Keşfet.</string>
+
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="@string/sort_order" android:id="@+id/action_sort">
+        <menu>
+            <group android:id="@+id/grp1" android:checkableBehavior="single">
+                <item android:id="@+id/action_alphabet"
+                    android:title="@string/alphabetical"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/action_dateAdded"
+                    android:title="@string/date_added"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/action_fileName"
+                    android:title="@string/file_name"
+                    android:checked="true"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/action_duration"
+                    android:title="@string/duration"
+                    app:showAsAction="never"/>
+            </group>
+            <group android:id="@+id/grp2" android:checkableBehavior="single">
+                <item android:id="@+id/action_ascending"
+                    android:checked="true"
+                    android:title="@string/ascending"
+                    app:showAsAction="never"/>
+                <item android:id="@+id/action_descending"
+                    android:title="@string/descending"
+                    app:showAsAction="never"/>
+            </group>
+
+        </menu>
+    </item>
+    <item android:id="@+id/action_rescan" android:title="@string/rescan_folder"
+        app:showAsAction="never"/>
+</menu>

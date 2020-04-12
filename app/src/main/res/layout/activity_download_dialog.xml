@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/loadLayout"
+        android:padding="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ProgressBar
+            android:progressTint="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:indeterminateDrawable="@drawable/progress"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="@string/parsing_video_details"
+            android:fontFamily="@font/dmsans_font"
+            android:textSize="15sp"
+            android:layout_marginStart="15dp"/>
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:visibility="gone"
+       android:id="@+id/mainLayout"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:orientation="vertical" >
+       <include layout="@layout/alert_download_filter"/>
+
+       <LinearLayout
+           android:gravity="center"
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:id="@+id/adViewLayout">
+           <!-- TODO: Sample Banner ca-app-pub-3940256099942544/6300978111 ,-->
+           <LinearLayout
+               android:visibility="gone"
+               android:orientation="vertical"
+               android:id="@+id/adViewLayout_add"
+               android:layout_width="match_parent"
+               android:layout_height="50dp">
+               <include layout="@layout/ad_banner"/>
+           </LinearLayout>
+           <RelativeLayout
+               android:visibility="gone"
+               android:orientation="vertical"
+               android:id="@+id/adViewLayout_add1"
+               android:layout_width="match_parent"
+               android:layout_height="50dp">
+               <include layout="@layout/ad_banner_2"/>
+           </RelativeLayout>
+           <RelativeLayout
+               android:visibility="gone"
+               android:orientation="vertical"
+               android:id="@+id/adViewLayout_add2"
+               android:layout_width="match_parent"
+               android:layout_height="50dp">
+               <include layout="@layout/ad_banner_3"/>
+           </RelativeLayout>
+           <com.google.android.gms.ads.AdView
+               android:visibility="gone"
+               xmlns:ads="http://schemas.android.com/apk/res-auto"
+               android:id="@+id/adView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               ads:adSize="BANNER"
+               ads:adUnitId="ca-app-pub-1164424526503510/4743714503">
+           </com.google.android.gms.ads.AdView>
+       </LinearLayout>
+       <LinearLayout
+           android:padding="5dp"
+           android:background="@color/colorScreen1"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:gravity="end"
+           android:orientation="horizontal">
+           <Button
+               android:onClick="cancelClick"
+               android:id="@+id/cancelButton"
+               android:elevation="0dp"
+               android:background="?android:attr/selectableItemBackground"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/cancel"
+               android:textColor="@color/colorAccent"/>
+           <Button
+               android:onClick="okClick"
+               android:id="@+id/okButton"
+               android:background="?android:attr/selectableItemBackground"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/ok"
+               android:textColor="@color/colorAccent"/>
+       </LinearLayout>
+   </LinearLayout>
+
+</LinearLayout>
