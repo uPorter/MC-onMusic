@@ -2,7 +2,7 @@
 
 [![Licence](https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0.en.html)
 
-[![Logo](https://github.com/MC-Team2212/MC-onMusic/blob/master/Screen%20Shots/dj.png) 
+[![Logo](https://github.com/MC-Team2212/MC-onMusic/blob/master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png)
 
 
 
