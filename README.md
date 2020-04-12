@@ -19,12 +19,11 @@
 *Uygulama içinde Ses Düzenle (Zil sesleri oluşturun veya parçaları istediğiniz gibi kırpın)
 *Komple Müzik çalar deneyimi (Trending, Viral, popular şarkıların yanı sıra Geçmişleri kaydetme ve Çalma Listesi oluşturma)
 *Yerleşik Local Playeri ile çevrimdışı müzik dinleyin
-*Mevcut tüm spotify trendleri, viral şarkılar (Arama sekmesi> Ayarlar> Bölge Seç bölümünden bölgeyi değiştir)
-*Bölgesel YouTube, SoundCloud ve Spotifydaki popüler şarkılar
-*Şarkı için şarkı sözleri alın (Tüm şarkılarda çalışmayabilir, işte bu yüzden)
-*YouTube'dan oynatma listesi oluşturma, oynatma listesi URL'sini Spotify
-*Uygulamadaki şarkıları ara
-*ve Çok daha fazlası ....
+* Mevcut tüm spotify trendleri, viral şarkılar (Arama sekmesi> Ayarlar> Bölge Seç bölümünden bölgeyi değiştir)
+* Bölgesel YouTube, SoundCloud ve Spotifydaki popüler şarkılar
+* Şarkı Sözlerine Tek Tuşla Ulaşın.
+* YouTube'dan oynatma listesi oluşturma, oynatma listesi URL'sini Spotify Uygulamasındaki şarkıları ara
+* ve Çok daha fazlası ....
 
 
 ## Preview
