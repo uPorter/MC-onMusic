@@ -5,7 +5,7 @@
 ![Logo](https://github.com/MC-Team2212/MC-onMusic/blob/master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png)
 
 
-[![Google](https://github.com/MC-Team2212/MC-onMusic/blob/master/Screen%20Shots/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.mc.onmusic_relase)
+
 
 
 
@@ -32,6 +32,9 @@
 ## Preview
 
 <img src="https://github.com/MC-Team2212/MC-onMusic/blob/master/Screen%20Shots/Screen%20Shot%201.png"/>
+
+
+[![Google](https://github.com/MC-Team2212/MC-onMusic/blob/master/Screen%20Shots/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.mc.onmusic_relase)
 
 
 
