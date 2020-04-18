@@ -6,6 +6,9 @@
 
 
 
+
+
+
 ## Özellikler
 
 *BAZI Özellikler*
@@ -31,13 +34,16 @@
 <img src="https://github.com/MC-Team2212/MC-onMusic/blob/master/Screen%20Shots/Screen%20Shot%201.png"/>
 
 
+[![Google](https://github.com/MC-Team2212/MC-onMusic/blob/master/Screen%20Shots/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.mc.onmusic)
+
+
 
 
 
 
 ## Lisans
 
-* [General Publication License 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)
+* [MIT License 3.0](http://ozgurlisanslar.org.tr/mit/)
 
 ```
 MIT License
