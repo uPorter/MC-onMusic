@@ -1,6 +1,7 @@
 # MC-onMusic
 
 [![Licence](https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat-square)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+[![Coverage Status](https://coveralls.io/repos/github/MC-Team2212/MC-onMusic/badge.svg?branch=master)](https://coveralls.io/github/MC-Team2212/MC-onMusic?branch=master)
 
 ![Logo](https://github.com/MC-Team2212/MC-onMusic/blob/master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png)
 
