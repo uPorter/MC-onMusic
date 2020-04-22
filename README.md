@@ -3,6 +3,10 @@
 [![Licence](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](http://ozgurlisanslar.org.tr/mit/)
 [![Build Status](https://travis-ci.org/boennemann/badges.svg?branch=master)](https://travis-ci.org/boennemann/badges)
 [![Coverage Status](https://coveralls.io/repos/github/MC-Team2212/MC-onMusic/badge.svg?branch=master)](https://coveralls.io/github/MC-Team2212/MC-onMusic?branch=master)
+[![Discord](https://img.shields.io/discord/567778703141109760?logo=discord)](https://discord.gg/W2Va5F)
+
+<img src="https://img.shields.io/discord/308323056592486420?logo=discord"
+            alt="chat on Discord"></a>
 
 ![Logo](https://github.com/MC-Team2212/MC-onMusic/blob/master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png)
 
