@@ -72,4 +72,4 @@ SOFTWARE.
 ```
 
 
-This is Remaked version of Android YTPlayer Library, the original version is KPSTV YTPlayer 
+This is Remaked version of Android YTPlayer Library.
