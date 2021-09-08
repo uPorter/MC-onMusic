@@ -57,7 +57,7 @@
 ```
 MIT License
 
-Copyright (c) 2020 MC-Team-Open-Source-Dev
+Copyright (c) 2020 uPorter
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
