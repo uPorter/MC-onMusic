@@ -14,35 +14,6 @@
 ![Logo](https://github.com/MC-Team2212/MC-onMusic/blob/master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png)
 
 
-
-
-
-
-## Özellikler
-
-*BAZI Özellikler*
-
-* YouTube'un Videolarını Arka Planda Dinleyebilirsiniz.
-* YouTube videolarını indirin (Desteklenen Formatlar ve Bit hızları: mp3 / m4a-92,128,192 kbits, .mp4-2160,1920,1080,720p)
-* Spotify dan müzik indirin (Desteklenen Formatlar ve Bitrates: mp3 / m4a-92,128,192 kbits)
-* SoundCloudan müzik indirin (Desteklenen Formatlar ve Bit hızları: mp3 / m4a-128 kbits)
-* Dahili mp3 dönüştürücü (ffmpeg Kitaplığı Kullanıldı)
-* Serin ses efektlerine sahip Dahili Ekolayzer
-* Uygulama içinde Ses Düzenle (Zil sesleri oluşturun veya parçaları istediğiniz gibi kırpın)
-* Komple Müzik çalar deneyimi (Trending, Viral, popular şarkıların yanı sıra Geçmişleri kaydetme ve Çalma Listesi oluşturma)
-* Yerleşik Local Playeri ile çevrimdışı müzik dinleyin
-* Mevcut tüm spotify trendleri, viral şarkılar (Arama sekmesi> Ayarlar> Bölge Seç bölümünden bölgeyi değiştir)
-* Bölgesel YouTube, SoundCloud ve Spotifydaki popüler şarkılar
-* Şarkı Sözlerine Tek Tuşla Ulaşın.
-* YouTube'dan oynatma listesi oluşturma, oynatma listesi URL'sini Spotify Uygulamasındaki şarkıları ara
-* ve Çok daha fazlası ....
-
-
-## Preview
-
-<img src="https://github.com/MC-Team2212/MC-onMusic/blob/master/Screen%20Shots/Screen%20Shot%201.png"/>
-
-
 [![Google](https://github.com/MC-Team2212/MC-onMusic/blob/master/Screen%20Shots/google-play-badge.png)](https://play.google.com/store/apps/details?id=com.mc.onmusic_relase)
 
 
@@ -50,7 +21,7 @@
 
 
 
-## Lisans
+## License
 
 * [MIT License 3.0](http://ozgurlisanslar.org.tr/mit/)
 
